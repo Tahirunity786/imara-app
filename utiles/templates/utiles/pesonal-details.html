@@ -1,0 +1,131 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %}Account Settings{% endblock title %}
+{% block content %}
+    <div class="container mt-5">
+        <div class="row">
+            {% include "component/link-box.html" %}
+            <div class="col-lg-8">
+                <div class="mb-4">
+                    <h1 class="as-xe01 ms-1 mb-3">Personal Details</h1>
+                    <h3 class="as-xe001 ms-1">Update your information and find out how it’s used.</h3>
+                </div>
+                <div class="line"></div>
+                <div class="mb-5 mt-2">
+                    <div class="mb-2 pt-1 row">
+                        <div class="col-lg-2">
+                            <h6 class="mt-1 mb-0" style="font-size: 0.85rem; font-weight: bold;">Name</h6>
+                        </div>
+                        <div class="col-lg-10 mb-1">
+                            <div class="d-flex justify-content-between align-itenms-center">
+                                <div>
+                                    <p class="m-0" id="fullname" style="font-size: 0.8rem;"></p>
+                                </div>
+                                <div>
+                                    <a href="#">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="mb-2 pt-1 row">
+                        <div class="col-lg-2">
+                            <h6 class="mt-1 mb-0" style="font-size: 0.85rem; font-weight: bold;">Email</h6>
+                        </div>
+                        <div class="col-lg-10 mb-1">
+                            <div class="d-flex justify-content-between align-itenms-center">
+                                <div>
+                                    <p class="m-0" id="email" style="font-size: 0.8rem;"></p>
+                                </div>
+                                <div>
+                                    <a href="#">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="mb-2 pt-1 row">
+                        <div class="col-lg-2">
+                            <h6 class="mt-1 mb-0" style="font-size: 0.85rem; font-weight: bold;">Phone no</h6>
+                        </div>
+                        <div class="col-lg-10 mb-1">
+                            <div class="d-flex justify-content-between align-itenms-center">
+                                <div>
+                                    <p class="m-0" id="phno" style="font-size: 0.8rem;" ></p>
+                                </div>
+                                <div>
+                                    <a href="#">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="mb-2 pt-1 row">
+                        <div class="col-lg-2">
+                            <h6 class="mt-1 mb-0" style="font-size: 0.85rem; font-weight: bold;">Date of Birth</h6>
+                        </div>
+                        <div class="col-lg-10 mb-1">
+                            <div class="d-flex justify-content-between align-itenms-center">
+                                <div>
+                                    <p class="m-0" style="font-size: 0.8rem;" id="dob"></p>
+                                </div>
+                                <div>
+                                    <a href="#">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="mb-2 pt-1 row">
+                        <div class="col-lg-2">
+                            <h6 class="mt-1 mb-0" style="font-size: 0.85rem; font-weight: bold;">Nationality</h6>
+                        </div>
+                        <div class="col-lg-10 mb-1">
+                            <div class="d-flex justify-content-between align-itenms-center">
+                                <div>
+                                    <p class="m-0" style="font-size: 0.8rem;" id="nationality"></p>
+                                </div>
+                                <div>
+                                    <a href="#">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="mb-2 pt-1 row">
+                        <div class="col-lg-2">
+                            <h6 class="mt-1 mb-0" style="font-size: 0.85rem; font-weight: bold;">Gender</h6>
+                        </div>
+                        <div class="col-lg-10 mb-1">
+                            <div class="d-flex justify-content-between align-itenms-center">
+                                <div>
+                                    <p class="m-0" style="font-size: 0.8rem;" id="gender"></p>
+                                </div>
+                                <div>
+                                    <a href="#">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="mb-2 pt-1 row">
+                        <div class="col-lg-2">
+                            <h6 class="mt-1 mb-0" style="font-size: 0.85rem; font-weight: bold;">Address</h6>
+                        </div>
+                        <div class="col-lg-10 mb-1">
+                            <div class="d-flex justify-content-between align-itenms-center">
+                                <div>
+                                    <p class="m-0" style="font-size: 0.8rem;" id="address"></p>
+                                </div>
+                                <div>
+                                    <a href="#">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock content %}
